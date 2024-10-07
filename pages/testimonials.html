@@ -6,6 +6,71 @@
         <title></title>
     </head>
 
+    <style>
+        ul {
+list-style-type: none;
+margin: 30;
+padding: 0;
+overflow: hidden;
+background-color: #2985ef;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 0; 
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 18px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+p{font-style:italic;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 7px;}
+
+div.gallery{align-items: center;
+  margin: 10px;
+  border: 5px solid #0b0707;
+ float:none;
+  width: 660px;
+}
+
+div.gallery:hover {
+  border: 5px solid #0d33b0;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 60px;
+  text-align: center;
+}
+a{font-size: 20px;
+padding: 5px;
+align-items: center;}
+
+h2{font-weight:800;
+font-style: italic;}
+
+h4{font-weight:800;
+font-style: italic;}
+
+
+</style>
     <header>
         <nav>
             <a href="../index.html"><img src="../images/blackhawk-education-logo.svg" alt="Blackhawk Education Logo"></a>
@@ -24,17 +89,63 @@
     <body>
         <h3>Student work</h3>
         <div>
-            <h4>Gaven McGoff</h3>
-            <div>
+            <h3>Gaven McGoff</h3>
+                <div class="gallery">
             <img src="../images/gavenPrevWork.png" width="350px" height="250px" alt="Image of Gaven's previous work">
-            <a href="http://btcsoftware.pro/gmcgoff/semester2/finalProject/pages/contact.html">Link to project</a>
+            <a href="http://btcsoftware.pro/gmcgoff/semester2/finalProject/pages/contact.html">Link to the website</a>
+        </div>
+
+            <div class="gallery">
             <img src="../images/gavenPrevWork2.png" width="350px" height="250px" alt="Image of Gaven's previous work">
-            <a href="https://btcsoftware.pro/gmcgoff/semester2/frontend2/midterm/">Link to project</a>
+            <a href="https://btcsoftware.pro/gmcgoff/semester2/frontend2/midterm/">Link to the website</a>
             <p>"I am glad to be enrolled in such a great school!" -Gaven McGoff</p>
+        </div>
+        <div>
+            <h3>Ivory Christianson</h3>
+            <div class="gallery">
+                <img src="../images/VyPrevWork.png" width="350px" height="250px" alt="Image of Ivory's previous work">
+                <a href="http://btcsoftware.pro/achristianson5/Design/week1415/index.html">Link to the website</a>
+                <br>
+                <br>
+                <img src="../images/VyPrevWork2.png" width="350px" height="250px" alt="Image of Ivory's previous work">
+                
+                <a href="http://btcsoftware.pro/achristianson5/Markup/Midterm/index.html">Link to the website</a>
+                <img src="../images/VyPrevWork3.png" width="350px" height="250px" alt="Image of Ivory's previous work">
+             
+                <a href="http://btcsoftware.pro/achristianson5/Design/CSSZenGarden/index.html">Link to the website</a>
+                <p>"Being a non-traditional student, Blackhawk really is the best option around!" - Ivory Christianson</p>
+            </div>
         </div>
     </body>
 
-    <footer>
+</div>
+<ul class="social-icon">
+  <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </a></li>
+  <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </a></li>
+  <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a></li>
+  <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a></li>
+</ul>
+<ul class="menu">
+    <li><a href="../index.html">Home</a></li>
+  <li><a href="courses.html">Courses</a></li>
+  <li><a href="gettingStarted.html">Get Started</a></li>
+  <li><a href="testimonials.html">Testimonials</a></li>
+  <li><a href="financing.html">Financing</a></li>
+  <li><a href="pathways.html">Pathways</a></li>
+  <li><a href="contact.html">Contact us</a></li>
 
-    </footer>
+
+</ul>
+<p>Copyright &copy; 2024 All Rights Reserved | Ivory Christianson, Gaven McGoff, Sean Bickel</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>
